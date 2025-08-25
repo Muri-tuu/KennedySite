@@ -1,8 +1,13 @@
 {
   "version": 2,
+  "projects": {
+    "default": {
+      "rootDirectory": "client"
+    }
+  },
   "builds": [
     {
-      "src": "client/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist"
